@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Celebration Cake Shop</h1>
+        
+        
+        <a href="http://www.google.com" target="_blank">Our Products</a> &nbsp; &nbsp;
+        <a href="http://www.google.com" target="_blank">Become a franchise</a>
+
+        <br>
+
+        <p>Make your Birtdays, Anniversary, and special ocassion magical with our special cakes.</p>
+
+        <br>
+
+        <div style="background-color: coral;">
+            <img src="Images/cake.jpg" width="200">
+            <h1>Birthday Surprises</h1>
+            <button>View</button>
+        </div>
+
+        <br>
+
+        <aside>
+        <h3>Flavours</h3>
+        <ul>
+            <li>Rose</li>
+            <li>Butterscotch</li>
+            <li>Strawberry</li>
+            <li>Almond</li>
+        </ul>
+        </aside>
+
+        <table border="2px">
+            <thead>
+                <tr>
+                    <th></th> 
+                    <th>Cake</th>
+                    <th>3D Cake</th>
+                    <th>Pastery</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Tall and Fancy</td>
+                    <td>Wedding Cake</td>
+                    <td>Fresh Cream Paestries</td>
+                </tr>
+                
+                <tr>
+                    <td>2</td>
+                    <td>Designer Cake</td>
+                    <td>Photo Cake</td>
+                    <td>Cup Pasteries</td>
+                </tr>
+                 <tr>
+                    <td>1</td>
+                    <td>Tall and Fancy</td>
+                    <td>Wedding cake</td>
+                    <td>Fresh Cream Paestries</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Premium</td>
+                    <td>3D cake</td>
+                    <td>Swiss Miss Paestry</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <br>
+
+        <form action="process.php" method="POST">
+
+            <h3>Order your cake</h3>
+
+            <label>Username:</label>
+            <input type="text" name="username" value="Enter your name">
+
+            <br>
+
+            <label>Select:</label>
+            <label for="s">Chocolates</label>
+            <input type="checkbox" name="s" id="s">
+
+            <label for="m">Birthday Card</label>
+            <input type="checkbox" name="m" id="m">
+
+            <label for="l">Candles</label>
+            <input type="checkbox" name="m" id="m">
+
+            <br>
+
+            <label>Size:</label>
+            <label for="sm">small</label>
+            <input type="radio" name="sm" id="sm">
+
+            <label for="md">Medium</label>
+            <input type="radio" name="md" id="md">
+
+            <label for="lg">Large</label>
+            <input type="radio" name="lg" id="lg">
+
+            <br>
+
+            <label>Sweetness:</label>
+                    <select name="sweetness">
+                        <option value="less sweet">less sweet</option>
+                        <option value="normal sweet">normal sweet</option>
+                        <option value="extra sweet">extra sweet</option>
+                    </select>
+
+            <br>
+
+            <input type="submit" name="submit" value="Submit">
+            
+
+        
+
+        </form>
+
+    </body>
+</html>
